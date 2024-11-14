@@ -65,7 +65,7 @@ nav a {
   /* top: 15%; */
   left: 29%;
   top: 50%;
-  transform: translate(-29%, -50%);
+  transform: translate(-29%, -50%) !important;
 }
 
 .product-img {
@@ -82,7 +82,7 @@ nav a {
   right: 15%;
   top: 50%;
   z-index: 10;
-  transform: translate(-15%, -50%);
+  transform: translate(-15%, -50%) !important;
 }
 
 #other {
@@ -999,7 +999,7 @@ footer {
   .coca {
     width: 37rem;
     height: 23.3rem;
-    left: 23.57%;
+    left: 20.57%;
   }
 
   .product-img {
@@ -1011,7 +1011,7 @@ footer {
   .cola {
     width: 38rem;
     height: 23.4rem;
-    right: 5.3%;
+    right: 0%;
   }
 
   .product {
@@ -1332,11 +1332,11 @@ footer {
 
 @media screen and (max-width: 500px) {
   .coca {
-    left: 25%;
+    left: 16%;
   }
 
   .cola {
-    right: -50px;
+    right: -20px;
   }
 
   .history-timeline::after {
@@ -1371,23 +1371,25 @@ footer {
   }
 
   .coca {
-    width: 24rem;
-    height: 15.2rem;
+    width: 20rem;
+    height: 10rem;
     object-fit: cover;
-    left: 11%;
+    left: 13%;
+
+    object-fit: contain;
   }
 
-  /* .product-img {
-    width: 21.2rem !important;
-    width: 59.5rem;
-    object-fit: cover;
-    left: 27%; */
+  .product-img {
+    width: 14rem !important;
+    height: 55rem;
+    object-fit: contain;
+  }
 
   .cola {
-    width: 24.8rem;
-    height: 15.3rem;
+    width: 20rem;
+    height: 10rem;
     object-fit: cover;
-    right: -7%;
+    right: -5%;
   }
 
   /* #other {
