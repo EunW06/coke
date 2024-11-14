@@ -4,7 +4,7 @@ $(function () {
   const brandstory = gsap.timeline({
     scrollTrigger: {
       trigger: ".brand-story",
-      markers: true,
+      // markers: true,
       start: "top 0%", //trigger scroller(viewport)
       end: "bottom+=1500 0%",
       pin: true,
