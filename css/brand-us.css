@@ -253,13 +253,16 @@ nav a {
 
 .com-btn {
   display: flex;
-
   gap: 2rem;
 }
 
 .com-btn a {
   font-size: 2.6rem;
   font-weight: 700;
+}
+
+.com-btn a:hover {
+  color: black;
 }
 
 .arrow {
